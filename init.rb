@@ -1,6 +1,6 @@
 require 'redmine'
 
-require 'issue_changesets_listener'
+require 'issue_changeset_listener'
 
 Redmine::Plugin.register :redmine_issue_changesets_view_link_github do
   name 'Redmine Issue Changesets View Link Github plugin'

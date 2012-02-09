@@ -3,7 +3,7 @@
 
 <% Project.all().each do |proj| %>
 <p>
-  <label><%=h proj.identifier%></label><%= text_field_tag "settings[#{proj.identifier}]", @settings[proj.identifier], :size => 70 %>
+  <label><%=h proj.name%></label><%= text_field_tag "settings[#{proj.identifier}]", @settings[proj.identifier], :size => 70 %>
 </p>
 <% end %>
 </fieldset>

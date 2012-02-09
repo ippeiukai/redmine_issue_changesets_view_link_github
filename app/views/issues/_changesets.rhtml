@@ -1,1 +1,3 @@
-<%= call_hook(:view_issue_show_changesets, :changesets => changesets) %>
+<% changesets.each do |changeset| %>
+<%= call_hook(:view_issue_show_changeset, :changeset => changeset) %>
+<% end %>
