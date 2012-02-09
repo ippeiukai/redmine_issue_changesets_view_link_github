@@ -1,0 +1,6 @@
+Redmine Issue Changesets View Link Github plugin
+by Ippei Ukai
+
+This plugin changes Changesets view (the list of associated revisions) in the Issue view to link GitHub instead of Redmine's buildin repository browser.
+
+Please set the GitHub user/repository in plugin's configure page for those projects that you want to replace the link.
